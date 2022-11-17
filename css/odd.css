@@ -1,0 +1,21 @@
+.con{
+    height:300px;
+    width: 500px;
+    background-color: aqua;
+    text-align: center;
+    margin: auto;
+    margin-top:5%;
+}
+input{
+    margin-top: 50px;
+    width: 200px;
+    height: 25px;
+    display: block;
+    margin-left: 150px;
+   
+}
+button{
+    height: 30px;
+    width: 75px;
+    font-size: 20px;
+}

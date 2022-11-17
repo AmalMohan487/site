@@ -1,0 +1,67 @@
+.con{
+    position: relative;
+}
+.fdiv{
+    height: 400px;
+    width: 900px;
+    margin-left: 20%;
+    margin-top:15% ;
+     background-color: rgb(255, 255, 255); 
+    border-radius: 30px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+
+}
+.sdiv{
+    height: 550px;
+    width: 380px;
+    border-radius: 40px;
+     background-color: rgb(255, 255, 255); 
+    position: absolute;
+    margin-top:11% ;
+    margin-left: 45%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+.con .fdiv h2{
+    color: green;
+    margin: 30px;
+}
+.con .fdiv h3{
+    color: green;
+    margin: 30px;
+}
+.con .fdiv h1{
+    margin: 30px;
+    color: aqua;
+}
+.con .sdiv h5{
+   margin-top: 40px;
+}
+.con .sdiv input{
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid aqua;
+}
+.con .sdiv button{
+   margin-top: 30px;
+   height: 35px;
+   width: 200px;
+   background-color: black;
+   color: white;
+   border-radius: 20px;
+   font-size: 20px;
+
+
+}
+.con .sdiv button:hover{
+    background-color: aqua;
+    color:black
+}
+.con .sdiv input:hover{
+    height: 38px;
+    width: 255px;
+}

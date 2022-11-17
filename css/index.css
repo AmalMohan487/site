@@ -1,0 +1,66 @@
+/* .con{
+    height: 300px;
+    width:  200px;
+    background-color: rgb(41, 230, 151);
+    position: sticky;
+    left:500px;
+    top:0;
+} */
+/* .con
+{
+    position: relative;
+}
+.child1{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    position: absolute;
+    z-index: 2;
+   
+}
+.child2{
+    height: 600px;
+    width: 600px;
+    background-color: chartreuse;
+    position: absolute;
+    z-index: 1;
+}
+.child3{
+    height: 800px;
+    width: 800px;
+    background-color: rgb(77, 63, 167);
+    position: absolute;
+    z-index: 0; 
+}*/
+.container{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    position: relative;
+}
+.container img{
+     position: absolute; 
+     z-index: 0;
+    
+
+}
+.container .text{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 5, 5);
+    font-weight: 1000;
+    z-index: 1;
+    margin-top: 20px;
+   
+    visibility: hidden;
+} 
+ .container:hover .text{
+   
+    visibility: visible;
+   
+   
+
+}

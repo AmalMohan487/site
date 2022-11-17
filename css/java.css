@@ -1,0 +1,40 @@
+body{
+    background-color:aqua
+}
+div{
+    height: 500px;
+    width: 500px;
+    background-color:rebeccapurple ;
+    text-align: center;
+    margin: auto;
+    margin-top: 13%;
+}
+input{
+
+    height: 40px;
+    width: 300px;
+    background-color: rgb(253, 253, 253);
+    color: rgb(219, 13, 13);
+    font-size: 20px;
+    margin-top: 20px;
+}
+button{
+    height: 30px;
+    width: 200px;
+    background-color: chartreuse;
+    color: black;
+    margin-top: 20px;
+    font-size: 20px;
+   
+}
+h1{
+    height: 40px;
+    background-color: rgb(226, 43, 43);
+}
+button:hover{
+    background-color: dodgerblue;
+}
+input:hover{
+    background-color: rgb(136, 190, 30);
+    color: black;
+}

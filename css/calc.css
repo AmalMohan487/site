@@ -1,0 +1,36 @@
+/* .con{
+    margin: auto;
+    margin-top: 10%;
+    height: 500px;
+    width :500px;
+    border: 2px solid black;
+    text-align:center;
+    border-radius: 10px;
+    background-color: bisque;
+}
+.con label{
+    font-size: 30px;
+    display: block;
+}
+.con input{
+    font-size: 30px;
+    width:200px;
+    padding: 10px;
+    background-color: aquamarine;
+
+    
+}
+.con input:hover{
+    background-color: chartreuse;
+}
+.con button{
+    display: block;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: black;
+    border-radius: 40px;
+    
+}
+.con button:hover{
+    background-color: blueviolet;
+} */

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/calc.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="con">
+     <div class="con1"></div>
+     <div class="con2"></div>
+    <script>
+
+      function calc(val){
+        let num1=document.getElementById('val1').value
+        let num2=document.getElementById('val2').value
+        let x=num1+val+num2
+        total= eval(x)
+        document.getElementById('res').innerHTML=total +" is the result"
+      }
+    </script>
+    <!-- <script>
+        function calc(oper){
+            var val1 = parseInt(document.getElementById("val1").value)
+            var val2 = parseInt(document.getElementById("val2").value)
+           var sum
+            if(oper == "+"){
+              sum= val1 + val2
+            }
+            else if (oper == "-"){
+              sum= val1 + val2
+            }else if (oper == "*"){
+              sum= val1 + val2
+            }else if (oper == "/"){
+              sum= val1 + val2
+            }
+           
+            document.getElementById('res').innerHTML= "Result is "+ sum
+        } -->
+    </script>
+</body>
+</html>

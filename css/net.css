@@ -1,0 +1,127 @@
+
+ body{
+    
+     background-image: repeating-linear-gradient(to bottom right,red 5%,yellow 40%); */
+    @font-face {
+        font-family:myfont;
+        src : url(font/Mythias.otf);
+    
+     @keyframes newanime{
+       0%{
+            background-color: blueviolet;
+            width: 300px;
+            left:100px;
+           top:150px;
+           
+           
+            
+        }
+        25%{
+            background-color: rgb(42, 165, 157);
+            width: 400px;
+           left:200px;
+           top:300px;
+           font-size: 20px;
+          
+        
+           
+        }
+        50%{
+            background-color: burlywood;
+            width: 500px;
+            left:0;
+            top:300px;
+            font-size: 500px;
+            visibility:hidden;
+          
+            
+        }
+        75%{
+            background-color: rgb(255, 0, 0);
+            width: 600px;
+            left:500px;
+            top:400px;
+            visibility: visible;
+        }
+        100%{
+            background-color: rgb(74, 246, 0);
+            width: 700px;
+        }
+    } 
+  div{
+    position: absolute;
+    font-family: myfont;
+    height: 200px;
+    width: 500px;
+    border: 1px ridge black;
+    padding: 40px;
+    font-size: 50px;
+    color:rgb(158, 244, 247) ;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0),0px 0px 25px green,0px 0px 5px rgb(26, 182, 255);
+    animation-iteration-count:5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   animation-name: newanime;
+   animation-duration: 10s;
+   animation-timing-function: ease;
+ border: 5px solid black; 
+    /* border-radius: 50%; */
+    /* margin: auto; */
+    /* background-image: conic-gradient(red 0deg,red 90deg,orange 90deg ,orange 180deg, yellow 180deg,yellow 270deg, green 270deg); */
+     background-image: radial-gradient(closest-side at 70% 30% ,red 10%, blue 20%,green 30%, yellow 40%); 
+     background-image: repeating-conic-gradient(red 0deg 10deg,orange 10deg 20deg, yellow 20deg 30deg, green 40deg); 
+
+} 
+
+
+.fond{
+    height: 200px;
+    width: 500px;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 2s;
+    transition-timing-function: ease-in-out;
+   
+    
+}
+.fond:hover{
+    overflow: hidden;
+    transform: translate(100px, 10px); 
+    transform: rotate(-30deg);
+     transform: scalex(.5); 
+ 
+  transform:matrix(1,-0.3,1,1,150,1); 
+ width: 800px;
+ height: 500px;
+ background-color: aquamarine;
+} 
+.flex div{
+    background-color: aqua;
+    font-size: 40px;
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+   
+   
+}
+.flex{
+   
+    display:flex ;
+    background-color: blueviolet;
+    flex-direction: row-reverse; 
+     flex-wrap: wrap; 
+     justify-content:center; 
+     align-items: baseline; 
+}
+@media  (max-width:720px) {
+    .flex{
+
+        flex-direction: column;
+        background-color: brown;
+        width: 100%;
+        overflow: hidden;
+
+    }
+    .flex >div{
+        width: 100%;
+    }
+}

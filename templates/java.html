@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="java.css">
+    <title>javascript</title>
+</head>
+<body>
+<div>
+    <input id="f" type="number" placeholder="Enter the number"><br>
+    <br>
+    <input id="s" type="number" placeholder="Enter the number">
+    <br>
+    
+    <button onclick="add()">Addition</button><br>
+    <button onclick="sub()">Substract</button><br>
+    <button onclick="mul()">Multiply</button><br>
+    <button onclick="div()">Divission</button><br>
+    <h1 id="h"></h1>
+</div>
+    <script>
+        function add(){
+          var x= parseInt(document.getElementById("f").value);
+          var y=parseInt(document.getElementById("s").value);
+          var z= (x + y)
+          document.getElementById("h").innerHTML= "sum is "+ z;
+        }
+        function sub(){
+          var x= parseInt(document.getElementById("f").value);
+          var y= parseInt(document.getElementById("s").value);
+          var z=x-y
+          document.getElementById("h").innerHTML= "sub is "+ z;
+        }
+        function mul(){
+          var x= parseInt(document.getElementById("f").value);
+          var y= parseInt(document.getElementById("s").value);
+          var z=x*y
+          document.getElementById("h").innerHTML= "Mul is "+ z;
+        }
+        function div(){
+          var x= parseInt(document.getElementById("f").value);
+          var y= parseInt(document.getElementById("s").value);
+          var z=x/y
+          document.getElementById("h").innerHTML= "Div is "+ z;
+        }
+        </script>
+<!-- <script>
+    var x="hello"
+    document.getElementById("demo").innerHTML=x;
+    document.write(x)
+    console.log(x)
+    window.alert(x)
+</script> -->
+<!-- <script>
+    var x=10;
+    let y=20;
+    function add(){
+        const z= x+y;
+        document.getElementById("demo").innerHTML=z;
+    };
+    function cel(){
+        var f=document.getElementById('far').value
+        var ce=(5/9)*(f-32)
+        document.getElementById("demo").innerHTML="to celcius " + ce;
+    };
+
+
+
+   // const z=x/y;
+   // document.getElementById("demo").innerHTML=z;
+  //  let a,b,c;
+  //  a=10;
+   // b=50;
+   // c=30;
+ //   document.getElementById("demo").innerHTML=b;
+   // b="hy"
+    //document.getElementById("demo").innerHTML=b;
+
+   // const pi=3.14
+</script>                                                                                                                                                                                                                                                                                                                           -->
+</body>
+</html>
+
+

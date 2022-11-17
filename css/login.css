@@ -1,0 +1,19 @@
+form{
+    border: 4px solid blueviolet;
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    margin:auto;
+    margin-top: 10%;
+    background-color: rgb(254, 88, 12);
+   
+}
+input:hover{
+    background-color: aqua;
+
+
+}
+h2{
+    text-decoration:underline solid  black;
+}
+
